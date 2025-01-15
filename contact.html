@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="./style.css">
+    <form action="./action.php"></form>
+    <link rel="icon" href="./Resources/home-banner.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">ContactUs</a></li>
+        </ul>
+    </nav>
+    <!-- contact us text  -->
+        <center><h2>Contact Us</h2></center>
+    <!-- form -->
+     <form>
+
+      <form action="./action.php">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter Your First Name"><br><br>
+            <label for="iname">Last Name:</label>
+            <input type="text" id="iname" name="iname" placeholder="Enter Your Last Name"><br><br>
+            <label for="gender">Gender: </label>
+        <div id="genderoptions" >
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br><br>
+        </div>
+        <textarea name="message">Your Message </textarea>
+
+        <h4>Pastry Shop Feedback</h4>
+        <br>
+        <label for="item"> Favourite Item In Our Menu:</label>
+        <input type="text" placeholder="Eg Chocolate Cake">
+        <br>
+        
+      </form>
+    </form> 
+    
+    <!-- footer -->
+    <footer>
+        <p class="pfooter">@2025pastry shop.All rights reserved</p>
+    </footer>
+    
+</body>
+</html>
