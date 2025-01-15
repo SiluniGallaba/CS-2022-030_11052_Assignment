@@ -1,6 +1,6 @@
 * {
     margin:0;
-    padding:0;
+    padding: 0px;
     box-sizing: border-box;
   }
 
@@ -14,9 +14,10 @@
     background-color: #fb3;
     display: flex;
     flex-direction: row;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
     justify-content: center;
     align-items: center;
+    margin-top: 0%;
 
   }
   ul {
@@ -31,12 +32,12 @@
   }
 
   ul li a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Ensure the links are white */
+    text-decoration: none;
+    color: white; 
   }
 
   /*welcome to our pastry shop text*/
-  #welcometext{
+  h3{
     text-align: center;
     height: 2rem;
     margin-top: 1rem;
@@ -54,20 +55,87 @@
 
   }
   #p1 {
-    background-color:pink;
+    background-color:#f2e2d2;
     vertical-align: text-top;
     margin-top: 0%;
     padding-top: 0%;
     margin-bottom: 2rem;
   }
   
+/* products page*/
+  .pastryshop {
+    padding-bottom: 1px 2px;
+    margin-bottom: 2px;
+    border-color: black;
+    border-width: 3px;
+    background-color: #f2e2d2;
+    border-collapse: collapse;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 6rem;
   
-  /*Footer*/
-  footer {
-    background-color: #333
+  }
+
+  h2 {
+    color: #5f4b3a;
+  }
+ 
+  tr {
+    border-bottom: 3px;
+    border-color: black;
+    border-collapse: collapse;
+    background-color:  #f2e2d2;
     
   }
-  #pfooter {
-    text-align: center;
-    color: white;
+    
+  td {
+    border-right: #333;
+    border-width: 3px;
+    border-collapse: collapse;
+   
   }
+  th {
+    background-color: #fb3;
+  }
+
+  img {
+    width: 150px;
+  }
+
+
+/* contact us page*/
+
+form {
+  text-decoration: none;
+  
+}
+#genderoptions {
+  margin-right: 0.5rem;
+} 
+
+div {
+  margin-right: 0.5rem;
+}
+
+label {
+  color: #5f4b3a;
+}
+
+input{
+  color: #5f4b3a;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    border-bottom: 100%;
+    color:white;
+}
+
+
+  
+
+  
